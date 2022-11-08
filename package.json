@@ -1,0 +1,27 @@
+{
+  "name": "Tugas-CRUD",
+  "version": "1.0.0",
+  "description": "membuat CRUD user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rendipurnomo/Tugas-CRUD.git"
+  },
+  "keywords": [],
+  "author": "Rendi Purnomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rendipurnomo/Tugas-CRUD/issues"
+  },
+  "homepage": "https://github.com/rendipurnomo/Tugas-CRUD#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.5"
+  }
+}
