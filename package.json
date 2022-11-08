@@ -2,6 +2,7 @@
   "name": "Tugas-CRUD",
   "version": "1.0.0",
   "description": "membuat CRUD user",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,6 +20,8 @@
   },
   "homepage": "https://github.com/rendipurnomo/Tugas-CRUD#readme",
   "dependencies": {
+    "argon2": "^0.30.2",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mysql2": "^2.3.3",
